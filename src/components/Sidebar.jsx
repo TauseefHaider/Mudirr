@@ -155,7 +155,7 @@ export default function Sidebar() {
                     lineHeight: "20px",
                   }}
                 >
-                  tauseefhaider@gmail.com
+                  tauseefhaider919@gmail.com
                 </Text>
               </Box>
             </Flex>
@@ -199,9 +199,10 @@ export default function Sidebar() {
     <h2>
       <AccordionButton gap={"4px"}>
       <AccordionIcon />
-        <Box as='span' flex='1' textAlign='left' fontSize={"14px"} fontWeight={600}>
+        <Flex as='span' justifyContent={"space-between"} flex='1' textAlign='left' fontSize={"14px"} fontWeight={600}>
           WORKSPACE
-        </Box>
+          <Text fontSize={"10px"} p={"2px"} px={"4px"} bg={"#dadad7"} fontWeight={600} borderRadius={"10px"} textAlign="right">Coming Soon</Text>
+        </Flex>
         
       </AccordionButton>
     </h2>
@@ -215,8 +216,56 @@ export default function Sidebar() {
 
   
 </Accordion>
+
+<Divider/>
+
+<Accordion defaultIndex={[0]} allowMultiple my={"10px"} borderColor={"#ebf0fa"}>
+  <AccordionItem>
+    <h2>
+      <AccordionButton gap={"4px"}>
+      <AccordionIcon />
+        <Flex as='span' justifyContent={"space-between"} flex='1' textAlign='left' fontSize={"14px"} fontWeight={600}>
+          LAUNCHPAD
+          
+        </Flex>
+        
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4} fontSize={"14px"} ml={"15px"} gap={"10px"}>
+      <Flex  justify={"space-between"} p={"2px"}><Flex gap={"6px"} alignItems={"center"}> <Image src={"Logo 2.svg"} width={4} height={4} /> Business Name 1</Flex> <Image src={"chevron-down.svg"} width={4} height={4}/> </Flex>
+      <Flex  justify={"space-between"} p={"2px"}><Flex gap={"6px"} alignItems={"center"}> <Image src={"Logo 3.svg"} width={4} height={4} /> Business Name 2</Flex> <Image src={"chevron-down.svg"} width={4} height={4}/> </Flex>
+      <Flex  justify={"space-between"} p={"2px"}><Flex gap={"6px"} alignItems={"center"}> <Image src={"Logo 4.svg"} width={4} height={4} /> Business Name 3</Flex> <Image src={"chevron-down.svg"} width={4} height={4}/> </Flex>
+      <Text color={"blue"} ml={"30px"} mt={"8px"} alignSelf={"center"}>See All</Text>
+    </AccordionPanel>
+  </AccordionItem>
+
+  
+</Accordion>
       
       </Box>
+
+      <Accordion defaultIndex={[0]} allowMultiple my={"10px"} borderColor={"#ebf0fa"}>
+  <AccordionItem>
+    <h2>
+      <AccordionButton gap={"4px"}>
+      <AccordionIcon />
+        <Flex as='span' justifyContent={"space-between"} flex='1' textAlign='left' fontSize={"14px"} fontWeight={600}>
+          PINNED PROJECT (3/3)
+          
+        </Flex>
+        
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4} fontSize={"14px"} ml={"15px"} gap={"10px"}>
+      <Flex  justify={"space-between"} p={"2px"}><Flex gap={"6px"} alignItems={"center"}> <Image src={"icon.svg"} width={4} height={4} /> Project Name 1</Flex> <Image src={"chevron-down.svg"} width={4} height={4}/> </Flex>
+      <Flex  justify={"space-between"} p={"2px"}><Flex gap={"6px"} alignItems={"center"}> <Image src={"icon.svg"} width={4} height={4} /> Project Name 2</Flex> <Image src={"chevron-down.svg"} width={4} height={4}/> </Flex>
+      <Flex  justify={"space-between"} p={"2px"}><Flex gap={"6px"} alignItems={"center"}> <Image src={"icon.svg"} width={4} height={4} /> Project Name 3</Flex> <Image src={"chevron-down.svg"} width={4} height={4}/> </Flex>
+      
+    </AccordionPanel>
+  </AccordionItem>
+
+  
+</Accordion>
 
     </Box>
   );
