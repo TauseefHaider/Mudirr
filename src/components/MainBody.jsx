@@ -45,7 +45,7 @@ export default function MainBody() {
       </Box>
       <Flex justifyContent={"space-between"}>
       <Tabs>
-  <TabList>
+  <TabList fontSize={"12px"}>
     <Tab>Ongoing</Tab>
     <Tab>Completed</Tab>
     <Tab>Cancelled</Tab>
