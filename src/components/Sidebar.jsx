@@ -29,6 +29,7 @@ import {
 
 import { Divider } from "@chakra-ui/react";
 
+
 export default function Sidebar() {
   const [selectedIndex, setSelectedIndex] = useState(0);
 
@@ -343,7 +344,7 @@ export default function Sidebar() {
                 </Flex>
                 <Text
                   color={"blue"}
-                  ml={"30px"}
+                  ml={"40px"}
                   mt={"8px"}
                   alignSelf={"center"}
                 >
