@@ -209,7 +209,7 @@ export default function Sidebar() {
       <Flex  justify={"space-between"} p={"2px"}>Work Space Name 1 <Image src={"chevron-down.svg"} width={4} height={4}/> </Flex>
       <Flex  justify={"space-between"} p={"2px"}>Work Space Name 2 <Image src={"chevron-down.svg"} width={4} height={4}/> </Flex>
       <Flex  justify={"space-between"} p={"2px"}>Work Space Name 3 <Image src={"chevron-down.svg"} width={4} height={4}/> </Flex>
-      <Text color={"blue"} ml={"30px"} mt={"6px"} alignSelf={"center"}>See All</Text>
+      <Text color={"blue"} ml={"30px"} mt={"8px"} alignSelf={"center"}>See All</Text>
     </AccordionPanel>
   </AccordionItem>
 
