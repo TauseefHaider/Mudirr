@@ -13,7 +13,7 @@ export default function MainBody() {
         Welcome Back, Tauseef!
         </Heading>
         <Text mb={"32px"} mt={"15px"}>You have accomplished a lot today.Let us handle the rest</Text>
-        <Flex gap={"56px"}>
+        <Flex gap={"80px"}>
           <Flex alignItems={"center"} gap={"4px"}>
             <Image src={"Folder.svg"} width={10} height={"38px"}/>
             <Box>
