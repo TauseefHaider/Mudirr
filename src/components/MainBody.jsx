@@ -59,20 +59,20 @@ export default function MainBody() {
      <Button bg={"#5876B7"} color={"white"} leftIcon={<PlusIcon/>} _hover={{ bg: "#334876" }}> Creat a Project </Button>
      </Flex>
      <Flex mt={"32px"} gap={"32px"} flexWrap={"wrap"} >
-  <Card width={'311px'} height={"268px"}>
+  <Card width={'311px'} height={"268px"} >
     <CardHeader py={"12px"}>
-      <Flex alignItems={"center"}>
-      <Heading size='md'> Make E-Commerce Website for a Brand Store</Heading>
-      <Image src={"dot.svg"} w={6} h={6}/>
+      <Flex alignItems={"center"} color={"#050504"}>
+      <Heading fontSize={"18px"} w={"237px"} fontWeight={700}> Make an E-Commerce Website for a Brand Store</Heading>
+      <Image src={"dot.svg"} w={5} h={5}/>
       </Flex>
-      <Text fontSize={"12px"} mt={"10px"} color={"#707066"}>Web</Text>
+      <Text fontSize={"12px"} fontWeight={400} mt={"8px"} color={"#707066"}>Web</Text>
     </CardHeader>
     <CardBody my={"0px"} py={"0px"}>
-      <Image src={"Task Progress.svg"} w={300} h={4} mt={"6px"}/>
-      <Text color={"#5876B7"} fontSize={"12px"} bg={"#dbe2f0"} w={"68px"} h={"24px"} textAlign={"Center"} justifyContent={"center"} borderRadius={"5px"} pt={"3px"} mb={"8px"} mt={"18px"}>Ongoing</Text>
-      <Text color={"#5876B7"} fontSize={"12px"} bg={"#dbe2f0"} w={"157px"} h={"24px"} textAlign={"Center"} justifyContent={"center"} borderRadius={"5px"} pt={"3px"} >Next milestone: Dec 5th</Text>
-    <Flex alignItems={"center"} mt={"20px"} justifyContent={"space-between"}>
-      <Heading size="sm">Follow up with manager</Heading>
+      <Image src={"Task Progress.svg"} w={300} h={4} my={"22px"}/>
+      <Text color={"#5876B7"} fontSize={"12px"} bg={"#dbe2f0"} w={"68px"} h={"24px"} textAlign={"Center"} justifyContent={"center"} borderRadius={"5px"} pt={"3px"} mb={"8px"} >Ongoing</Text>
+      <Text color={"#5876B7"} fontSize={"12px"} bg={"#dbe2f0"} w={"157px"} h={"24px"} textAlign={"Center"} justifyContent={"center"} borderRadius={"5px"} pt={"3px"}>Next milestone: Dec 5th</Text>
+    <Flex alignItems={"end"} mt={"8px"} justifyContent={"space-between"}>
+      <Heading fontWeight={"700"} fontSize={"14px"}>Follow up with manager</Heading>
       <Button p={"10px"} bg={"#5876B7"} _hover={ {bg:"#334876"}}>
         <Image src={"Send.svg"} w={7} h={7} />
       </Button>
@@ -80,21 +80,20 @@ export default function MainBody() {
     </CardBody>
   </Card>
 
-  
-  <Card width={'311px'} height={"268px"}>
+  <Card width={'311px'} height={"268px"} >
     <CardHeader py={"12px"}>
-      <Flex alignItems={"center"}>
-      <Heading size='md'> Make E-Commerce Website for a Brand Store</Heading>
-      <Image src={"dot.svg"} w={6} h={6}/>
+      <Flex alignItems={"center"} color={"#050504"}>
+      <Heading fontSize={"18px"} w={"237px"} fontWeight={700}> Website technical maintenance project </Heading>
+      <Image src={"dot.svg"} w={5} h={5}/>
       </Flex>
-      <Text fontSize={"12px"} mt={"10px"} color={"#707066"}>Web</Text>
+      <Text fontSize={"12px"} fontWeight={400} mt={"8px"} color={"#707066"}>Web</Text>
     </CardHeader>
     <CardBody my={"0px"} py={"0px"}>
-      <Image src={"Task Progress.svg"} w={300} h={4} mt={"6px"}/>
-      <Text color={"#5876B7"} fontSize={"12px"} bg={"#dbe2f0"} w={"68px"} h={"24px"} textAlign={"Center"} justifyContent={"center"} borderRadius={"5px"} pt={"3px"} mb={"8px"} mt={"18px"}>Ongoing</Text>
-      <Text color={"#5876B7"} fontSize={"12px"} bg={"#dbe2f0"} w={"157px"} h={"24px"} textAlign={"Center"} justifyContent={"center"} borderRadius={"5px"} pt={"3px"} >Next milestone: Dec 5th</Text>
-    <Flex alignItems={"center"} mt={"20px"} justifyContent={"space-between"}>
-      <Heading size="sm">Follow up with manager</Heading>
+      <Image src={"Task Progress.svg"} w={300} h={4} my={"22px"}/>
+      <Text color={"#5876B7"} fontSize={"12px"} bg={"#dbe2f0"} w={"68px"} h={"24px"} textAlign={"Center"} justifyContent={"center"} borderRadius={"5px"} pt={"3px"} mb={"8px"} >Ongoing</Text>
+      <Text color={"#5876B7"} fontSize={"12px"} bg={"#dbe2f0"} w={"157px"} h={"24px"} textAlign={"Center"} justifyContent={"center"} borderRadius={"5px"} pt={"3px"}>Next milestone: Jan 1st</Text>
+    <Flex alignItems={"end"} mt={"8px"} justifyContent={"space-between"}>
+      <Heading fontWeight={"700"} fontSize={"14px"}>Follow up with manager</Heading>
       <Button p={"10px"} bg={"#5876B7"} _hover={ {bg:"#334876"}}>
         <Image src={"Send.svg"} w={7} h={7} />
       </Button>
@@ -102,20 +101,20 @@ export default function MainBody() {
     </CardBody>
   </Card>
 
-  <Card width={'311px'} height={"268px"}>
+  <Card width={'311px'} height={"268px"} >
     <CardHeader py={"12px"}>
-      <Flex alignItems={"center"}>
-      <Heading size='md'> Make E-Commerce Website for a Brand Store</Heading>
-      <Image src={"dot.svg"} w={6} h={6}/>
+      <Flex alignItems={"center"} color={"#050504"}>
+      <Heading fontSize={"18px"} w={"237px"} fontWeight={700}> WordPress website speed and SEO Optimization </Heading>
+      <Image src={"dot.svg"} w={5} h={5}/>
       </Flex>
-      <Text fontSize={"12px"} mt={"10px"} color={"#707066"}>Web</Text>
+      <Text fontSize={"12px"} fontWeight={400} mt={"8px"} color={"#707066"}>Web</Text>
     </CardHeader>
     <CardBody my={"0px"} py={"0px"}>
-      <Image src={"Task Progress.svg"} w={300} h={4} mt={"6px"}/>
-      <Text color={"#5876B7"} fontSize={"12px"} bg={"#dbe2f0"} w={"68px"} h={"24px"} textAlign={"Center"} justifyContent={"center"} borderRadius={"5px"} pt={"3px"} mb={"8px"} mt={"18px"}>Ongoing</Text>
-      <Text color={"#5876B7"} fontSize={"12px"} bg={"#dbe2f0"} w={"157px"} h={"24px"} textAlign={"Center"} justifyContent={"center"} borderRadius={"5px"} pt={"3px"} >Next milestone: Dec 5th</Text>
-    <Flex alignItems={"center"} mt={"20px"} justifyContent={"space-between"}>
-      <Heading size="sm">Follow up with manager</Heading>
+      <Image src={"Task Progress.svg"} w={300} h={4} my={"22px"}/>
+      <Text color={"#5876B7"} fontSize={"12px"} bg={"#dbe2f0"} w={"68px"} h={"24px"} textAlign={"Center"} justifyContent={"center"} borderRadius={"5px"} pt={"3px"} mb={"8px"} >Ongoing</Text>
+      <Text color={"#5876B7"} fontSize={"12px"} bg={"#dbe2f0"} w={"157px"} h={"24px"} textAlign={"Center"} justifyContent={"center"} borderRadius={"5px"} pt={"3px"}>Next milestone: In 3 days</Text>
+    <Flex alignItems={"end"} mt={"8px"} justifyContent={"space-between"}>
+      <Heading fontWeight={"700"} fontSize={"14px"}>Follow up with manager</Heading>
       <Button p={"10px"} bg={"#5876B7"} _hover={ {bg:"#334876"}}>
         <Image src={"Send.svg"} w={7} h={7} />
       </Button>
@@ -123,20 +122,20 @@ export default function MainBody() {
     </CardBody>
   </Card>
 
-  <Card width={'311px'} height={"268px"}>
+  <Card width={'311px'} height={"268px"} >
     <CardHeader py={"12px"}>
-      <Flex alignItems={"center"}>
-      <Heading size='md'> Make E-Commerce Website for a Brand Store</Heading>
-      <Image src={"dot.svg"} w={6} h={6}/>
+      <Flex alignItems={"center"} color={"#050504"}>
+      <Heading fontSize={"18px"} w={"237px"} fontWeight={700}> Make an E-Commerce Website for a Brand Store</Heading>
+      <Image src={"dot.svg"} w={5} h={5}/>
       </Flex>
-      <Text fontSize={"12px"} mt={"10px"} color={"#707066"}>Web</Text>
+      <Text fontSize={"12px"} fontWeight={400} mt={"8px"} color={"#707066"}>Web</Text>
     </CardHeader>
     <CardBody my={"0px"} py={"0px"}>
-      <Image src={"Task Progress.svg"} w={300} h={4} mt={"6px"}/>
-      <Text color={"#5876B7"} fontSize={"12px"} bg={"#dbe2f0"} w={"68px"} h={"24px"} textAlign={"Center"} justifyContent={"center"} borderRadius={"5px"} pt={"3px"} mb={"8px"} mt={"18px"}>Ongoing</Text>
-      <Text color={"#5876B7"} fontSize={"12px"} bg={"#dbe2f0"} w={"157px"} h={"24px"} textAlign={"Center"} justifyContent={"center"} borderRadius={"5px"} pt={"3px"} >Next milestone: Dec 5th</Text>
-    <Flex alignItems={"center"} mt={"20px"} justifyContent={"space-between"}>
-      <Heading size="sm">Follow up with manager</Heading>
+      <Image src={"Task Progress.svg"} w={300} h={4} my={"22px"}/>
+      <Text color={"#5876B7"} fontSize={"12px"} bg={"#dbe2f0"} w={"68px"} h={"24px"} textAlign={"Center"} justifyContent={"center"} borderRadius={"5px"} pt={"3px"} mb={"8px"} >Ongoing</Text>
+      <Text color={"#5876B7"} fontSize={"12px"} bg={"#dbe2f0"} w={"157px"} h={"24px"} textAlign={"Center"} justifyContent={"center"} borderRadius={"5px"} pt={"3px"}>Next milestone: Dec 5th</Text>
+    <Flex alignItems={"end"} mt={"8px"} justifyContent={"space-between"}>
+      <Heading fontWeight={"700"} fontSize={"14px"}>Follow up with manager</Heading>
       <Button p={"10px"} bg={"#5876B7"} _hover={ {bg:"#334876"}}>
         <Image src={"Send.svg"} w={7} h={7} />
       </Button>
@@ -144,20 +143,20 @@ export default function MainBody() {
     </CardBody>
   </Card>
 
-  <Card width={'311px'} height={"268px"}>
+  <Card width={'311px'} height={"268px"} >
     <CardHeader py={"12px"}>
-      <Flex alignItems={"center"}>
-      <Heading size='md'> Make E-Commerce Website for a Brand Store</Heading>
-      <Image src={"dot.svg"} w={6} h={6}/>
+      <Flex alignItems={"center"} color={"#050504"}>
+      <Heading fontSize={"18px"} w={"237px"} fontWeight={700}> Make an E-Commerce Website for a Brand Store</Heading>
+      <Image src={"dot.svg"} w={5} h={5}/>
       </Flex>
-      <Text fontSize={"12px"} mt={"10px"} color={"#707066"}>Web</Text>
+      <Text fontSize={"12px"} fontWeight={400} mt={"8px"} color={"#707066"}>Web</Text>
     </CardHeader>
     <CardBody my={"0px"} py={"0px"}>
-      <Image src={"Task Progress.svg"} w={300} h={4} mt={"6px"}/>
-      <Text color={"#5876B7"} fontSize={"12px"} bg={"#dbe2f0"} w={"68px"} h={"24px"} textAlign={"Center"} justifyContent={"center"} borderRadius={"5px"} pt={"3px"} mb={"8px"} mt={"18px"}>Ongoing</Text>
-      <Text color={"#5876B7"} fontSize={"12px"} bg={"#dbe2f0"} w={"157px"} h={"24px"} textAlign={"Center"} justifyContent={"center"} borderRadius={"5px"} pt={"3px"} >Next milestone: Dec 5th</Text>
-    <Flex alignItems={"center"} mt={"20px"} justifyContent={"space-between"}>
-      <Heading size="sm">Follow up with manager</Heading>
+      <Image src={"Task Progress.svg"} w={300} h={4} my={"22px"}/>
+      <Text color={"#5876B7"} fontSize={"12px"} bg={"#dbe2f0"} w={"68px"} h={"24px"} textAlign={"Center"} justifyContent={"center"} borderRadius={"5px"} pt={"3px"} mb={"8px"} >Ongoing</Text>
+      <Text color={"#5876B7"} fontSize={"12px"} bg={"#dbe2f0"} w={"157px"} h={"24px"} textAlign={"Center"} justifyContent={"center"} borderRadius={"5px"} pt={"3px"}>Next milestone: Dec 5th</Text>
+    <Flex alignItems={"end"} mt={"8px"} justifyContent={"space-between"}>
+      <Heading fontWeight={"700"} fontSize={"14px"}>Follow up with manager</Heading>
       <Button p={"10px"} bg={"#5876B7"} _hover={ {bg:"#334876"}}>
         <Image src={"Send.svg"} w={7} h={7} />
       </Button>
@@ -165,26 +164,48 @@ export default function MainBody() {
     </CardBody>
   </Card>
 
-  <Card width={'311px'} height={"268px"}>
+  <Card width={'311px'} height={"268px"} >
     <CardHeader py={"12px"}>
-      <Flex alignItems={"center"}>
-      <Heading size='md'> Make E-Commerce Website for a Brand Store</Heading>
-      <Image src={"dot.svg"} w={6} h={6}/>
+      <Flex alignItems={"center"} color={"#050504"}>
+      <Heading fontSize={"18px"} w={"237px"} fontWeight={700}> Make an E-Commerce Website for a Brand Store</Heading>
+      <Image src={"dot.svg"} w={5} h={5}/>
       </Flex>
-      <Text fontSize={"12px"} mt={"10px"} color={"#707066"}>Web</Text>
+      <Text fontSize={"12px"} fontWeight={400} mt={"8px"} color={"#707066"}>Web</Text>
     </CardHeader>
     <CardBody my={"0px"} py={"0px"}>
-      <Image src={"Task Progress.svg"} w={300} h={4} mt={"6px"}/>
-      <Text color={"#5876B7"} fontSize={"12px"} bg={"#dbe2f0"} w={"68px"} h={"24px"} textAlign={"Center"} justifyContent={"center"} borderRadius={"5px"} pt={"3px"} mb={"8px"} mt={"18px"}>Ongoing</Text>
-      <Text color={"#5876B7"} fontSize={"12px"} bg={"#dbe2f0"} w={"157px"} h={"24px"} textAlign={"Center"} justifyContent={"center"} borderRadius={"5px"} pt={"3px"} >Next milestone: Dec 5th</Text>
-    <Flex alignItems={"center"} mt={"20px"} justifyContent={"space-between"}>
-      <Heading size="sm">Follow up with manager</Heading>
+      <Image src={"Task Progress.svg"} w={300} h={4} my={"22px"}/>
+      <Text color={"#5876B7"} fontSize={"12px"} bg={"#dbe2f0"} w={"68px"} h={"24px"} textAlign={"Center"} justifyContent={"center"} borderRadius={"5px"} pt={"3px"} mb={"8px"} >Ongoing</Text>
+      <Text color={"#5876B7"} fontSize={"12px"} bg={"#dbe2f0"} w={"157px"} h={"24px"} textAlign={"Center"} justifyContent={"center"} borderRadius={"5px"} pt={"3px"}>Next milestone: Dec 5th</Text>
+    <Flex alignItems={"end"} mt={"8px"} justifyContent={"space-between"}>
+      <Heading fontWeight={"700"} fontSize={"14px"}>Follow up with manager</Heading>
       <Button p={"10px"} bg={"#5876B7"} _hover={ {bg:"#334876"}}>
         <Image src={"Send.svg"} w={7} h={7} />
       </Button>
     </Flex>
     </CardBody>
   </Card>
+
+  <Card width={'311px'} height={"268px"} >
+    <CardHeader py={"12px"}>
+      <Flex alignItems={"center"} color={"#050504"}>
+      <Heading fontSize={"18px"} w={"237px"} fontWeight={700}> Make an E-Commerce Website for a Brand Store</Heading>
+      <Image src={"dot.svg"} w={5} h={5}/>
+      </Flex>
+      <Text fontSize={"12px"} fontWeight={400} mt={"8px"} color={"#707066"}>Web</Text>
+    </CardHeader>
+    <CardBody my={"0px"} py={"0px"}>
+      <Image src={"Task Progress.svg"} w={300} h={4} my={"22px"}/>
+      <Text color={"#5876B7"} fontSize={"12px"} bg={"#dbe2f0"} w={"68px"} h={"24px"} textAlign={"Center"} justifyContent={"center"} borderRadius={"5px"} pt={"3px"} mb={"8px"} >Ongoing</Text>
+      <Text color={"#5876B7"} fontSize={"12px"} bg={"#dbe2f0"} w={"157px"} h={"24px"} textAlign={"Center"} justifyContent={"center"} borderRadius={"5px"} pt={"3px"}>Next milestone: Dec 5th</Text>
+    <Flex alignItems={"end"} mt={"8px"} justifyContent={"space-between"}>
+      <Heading fontWeight={"700"} fontSize={"14px"}>Follow up with manager</Heading>
+      <Button p={"10px"} bg={"#5876B7"} _hover={ {bg:"#334876"}}>
+        <Image src={"Send.svg"} w={7} h={7} />
+      </Button>
+    </Flex>
+    </CardBody>
+  </Card>
+
   
   
   

@@ -42,8 +42,7 @@ export default function Sidebar() {
 
   return (
     <Box w="304px" bg={"#F4F6FA"} py={"20px"} px={"16px"}>
-      <MySvgComponent/>
-      
+    <MySvgComponent/>
 
       <Menu w={272}>
         <MenuButton
@@ -251,9 +250,10 @@ export default function Sidebar() {
                     as="span"
                     justifyContent={"space-between"}
                     flex="1"
-                    textAlign="left"
-                    fontSize={"14px"}
+                    color={"#3C3C34"}
+                    fontSize={"12px"}
                     fontWeight={600}
+                    
                   >
                     WORKSPACE
                     <Text
@@ -312,7 +312,8 @@ export default function Sidebar() {
                     justifyContent={"space-between"}
                     flex="1"
                     textAlign="left"
-                    fontSize={"14px"}
+                    color={"#3C3C34"}
+                    fontSize={"12px"}
                     fontWeight={600}
                   >
                     LAUNCHPAD
@@ -371,7 +372,8 @@ export default function Sidebar() {
                   justifyContent={"space-between"}
                   flex="1"
                   textAlign="left"
-                  fontSize={"14px"}
+                  fontSize={"12px"}
+                  color={"#3C3C34"}
                   fontWeight={600}
                 >
                   PINNED PROJECT (3/3)
