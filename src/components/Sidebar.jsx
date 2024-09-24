@@ -41,7 +41,7 @@ export default function Sidebar() {
 
   return (
     <Box w="304px" bg={"#F4F6FA"} py={"20px"} px={"16px"}>
-      <Image src="/logo.svg" width={116} height={39} alt="Logo" />
+      <img src="/logo.svg" width={116} height={39} alt="Logo" />
 
       <Menu w={272}>
         <MenuButton
