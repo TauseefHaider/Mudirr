@@ -28,6 +28,7 @@ import {
 } from "@chakra-ui/react";
 
 import { Divider } from "@chakra-ui/react";
+import MySvgComponent from "./MySvgComponent"
 
 
 export default function Sidebar() {
@@ -41,7 +42,8 @@ export default function Sidebar() {
 
   return (
     <Box w="304px" bg={"#F4F6FA"} py={"20px"} px={"16px"}>
-      <img src="/logo.svg" width={116} height={39} />
+      <MySvgComponent/>
+      
 
       <Menu w={272}>
         <MenuButton
