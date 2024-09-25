@@ -466,15 +466,15 @@ export default function MainBody() {
     </Box>
     <Flex px={"32px"} h={"64px"} position={"fixed"} bottom={0} zIndex="9999" bg={"#FFFFFF"} w={"full"} alignItems={"center"} gap={"16px"}>
       <Flex alignItems={"center"} justifyContent={"center"} gap={"8px"} w={"225px"}>
-        <Image src="1.SVG" w={4} h={4} />
+        <Image src="1.svg" w={4} h={4} />
         <Text fontSize={"16px"} fontWeight={700}>Explore Documentation</Text>
       </Flex>
       <Flex alignItems={"center"} justifyContent={"center"} gap={"8px"} w={"225px"}>
-        <Image src="Calculate.SVG" w={4} h={4} />
+        <Image src="Calculate.svg" w={4} h={4} />
         <Text fontSize={"16px"} fontWeight={700}>Cost Calculator</Text>
       </Flex>
       <Flex alignItems={"center"} justifyContent={"center"} gap={"8px"} w={"225px"}>
-        <Image src="Calculate.SVG" w={4} h={4} />
+        <Image src="Calculate.svg" w={4} h={4} />
         <Text fontSize={"16px"} fontWeight={700}>Billing Calculator</Text>
       </Flex>
     </Flex>
