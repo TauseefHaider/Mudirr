@@ -41,7 +41,7 @@ export default function Sidebar() {
   const Ary = ["Dashboard", "Project Histoy", "Clint History", "Emails"];
 
   return (
-    <Box w="304px" bg={"#F4F6FA"} py={"20px"} px={"16px"}>
+    <Box w="304px" bg={"#F4F6FA"} py={"20px"} px={"16px"} position={"fixed"} h={"100vh"}>
     <MySvgComponent/>
 
       <Menu w={272}>
