@@ -31,7 +31,8 @@ import { Divider } from "@chakra-ui/react";
 import MySvgComponent from "./MySvgComponent"
 
 
-export default function Sidebar() {
+
+export default function Sidebar({ onSelectItem }) {
   const [selectedIndex, setSelectedIndex] = useState(0);
 
   const handleAccordionChange = (index) => {
@@ -40,9 +41,38 @@ export default function Sidebar() {
 
   const Ary = ["Dashboard", "Project Histoy", "Clint History", "Emails"];
 
+  const [selectedOption, setSelectedOption] = useState("option1");
+
+  const options = [
+    {
+      value: "option1",
+      label: "Haseena Jameela",
+      email: "Haseenajameela@gmail.com",
+      image: "/Avatar.png", // Replace with your image
+    },
+
+    {
+      value: "option2",
+      label: "Tauseef Haider",
+      email: "tauseefhaider919@gmail.com",
+      image: "/tauseef.png",
+    },
+    
+  ];
+
+  const handleSelect = (value) => {
+    setSelectedOption(value);
+    const selectedItem = options.find(option => option.value === value);
+    onSelectItem(selectedItem);
+  };
+
+  const selectedItem = options.find(option => option.value === selectedOption);
+
   return (
-    <Box w="304px" bg={"#F4F6FA"} py={"20px"} px={"16px"} position={"fixed"} h={"100vh"}>
+    <Box w="304px" bg={"#F4F6FA"} py={"20px"} px={"16px"} position={"fixed"} h={"100vh"} display={{ base: "none", lg: "block" }} >
     <MySvgComponent/>
+
+
 
       <Menu w={272}>
         <MenuButton
@@ -59,7 +89,7 @@ export default function Sidebar() {
         >
           <Flex gap={"10px"} alignItems={"center"}>
             <Image
-              src={"/tauseef.png"}
+              src={selectedItem.image}
               width={39}
               height={39}
               borderRadius={"50px"}
@@ -74,7 +104,7 @@ export default function Sidebar() {
                   textAlign: "left",
                 }}
               >
-                Tauseef Haider
+                {selectedItem.label}
               </Heading>
               <Text
                 sx={{
@@ -87,31 +117,36 @@ export default function Sidebar() {
                   textOverflow: "ellipsis",
                 }}
               >
-                tauseefhaider919@gmail.com
+                {selectedItem.email}
               </Text>
             </Box>
             <Image src={"/chevron-down.svg"} width={5} height={5} />
           </Flex>
         </MenuButton>
         <MenuList>
-          <MenuItem>
-            <Flex gap={"8px"}>
+        {options.map((option) => (
+            <MenuItem
+              key={option.value}
+              onClick={() => handleSelect(option.value)}
+              display="flex"
+              alignItems="center"
+            >
               <Image
-                src={"/tauseef.png"}
+                src={option.image}
                 width={39}
                 height={39}
                 borderRadius={"50px"}
+                mr={2}
               />
-              <Box gap={"12px"}>
+              <Box>
                 <Heading
                   sx={{
                     fontSize: "16px",
                     fontWeight: "600",
                     lineHeight: "20px",
-                    color: "#050504",
                   }}
                 >
-                  Tauseef Haider
+                  {option.label}
                 </Heading>
                 <Text
                   sx={{
@@ -119,47 +154,15 @@ export default function Sidebar() {
                     fontWeight: "400",
                     color: "#3C3C34",
                     lineHeight: "20px",
-                    overflow: "ellipsis",
+                    overflow: "hidden",
+                    textOverflow: "ellipsis",
                   }}
                 >
-                  tauseefhaider919@gmail.com
+                  {option.email}
                 </Text>
               </Box>
-            </Flex>
-          </MenuItem>
-          <MenuItem>
-            {" "}
-            <Flex gap={"8px"}>
-              <Image
-                src={"/tauseef.png"}
-                width={39}
-                height={39}
-                borderRadius={"50px"}
-              />
-              <Box gap={"12px"}>
-                <Heading
-                  sx={{
-                    fontSize: "16px",
-                    fontWeight: "600",
-                    lineHeight: "20px",
-                    color: "#050504",
-                  }}
-                >
-                  Tauseef Haider
-                </Heading>
-                <Text
-                  sx={{
-                    fontSize: "14px",
-                    fontWeight: "400",
-                    color: "#3C3C34",
-                    lineHeight: "20px",
-                  }}
-                >
-                  tauseefhaider919@gmail.com
-                </Text>
-              </Box>
-            </Flex>
-          </MenuItem>
+            </MenuItem>
+          ))}
         </MenuList>
       </Menu>
 

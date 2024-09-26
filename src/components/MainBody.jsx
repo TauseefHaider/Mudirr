@@ -19,13 +19,13 @@ import {
   SimpleGrid,
 } from "@chakra-ui/react";
 
-export default function MainBody() {
+export default function MainBody({ selectedItem }) {
   return (
-    <Box ml={"350px"}>
+    <Box ml={{ base: "0px", lg: "304px", xl:"350px"}}>
     <Box flexGrow={1}  bg={"white"} py={"56px"} px={"32px"} color={"#707066"}>
       <Box mb={"72px"}>
         <Heading as="h3" size="lg" color={"black"}>
-          Welcome Back, Tauseef!
+          Welcome Back, {selectedItem.label}!
         </Heading>
         <Text mb={"32px"} mt={"15px"}>
           You have accomplished a lot today.Let us handle the rest
@@ -69,7 +69,7 @@ export default function MainBody() {
           </Flex>
         </Flex>
       </Box>
-      <Box w={"998px"}>
+      <Box w={{ base: "auto", lg: "998px" }}>
         <Flex justifyContent={"space-between"}>
           <Tabs>
             <TabList fontSize={"12px"}>
