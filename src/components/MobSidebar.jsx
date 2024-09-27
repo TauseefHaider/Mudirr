@@ -77,23 +77,20 @@ export default function MobSidebar({ onSelectItem }) {
         onClick={onOpen}
         display={{ base: "block", lg: "none" }}
         position="fixed"
-        top="20px"
+        top="10px"
         left="20px"
         zIndex={20}
         aria-label="Open Menu"
       >
-        Open
+        <Image src={"align-justify.svg"} width={5} height={5} />
       </Button>
 
       <Drawer isOpen={isOpen} placement="left" onClose={onClose}>
         <DrawerOverlay>
           <DrawerContent bg={"#F4F6FA"}>
             <DrawerCloseButton />
-            <DrawerHeader>
-              <MySvgComponent />
-            </DrawerHeader>
-
             <DrawerBody>
+            <MySvgComponent />
               <Menu w={272}>
                 <MenuButton
                   as={Button}
