@@ -1,6 +1,7 @@
 "use client";
 
 import MainBody from "@/components/MainBody";
+import MobSidebar from "@/components/MobSidebar";
 import Sidebar from "@/components/Sidebar";
 import { Flex } from "@chakra-ui/react";
 import { useState } from "react";
@@ -27,6 +28,7 @@ export default function Home() {
   return (
     <Flex gap={2} minH={"100vh"}>
       <Sidebar onSelectItem={setSelectedItem}  />
+      <MobSidebar onSelectItem={setSelectedItem}  />
       <MainBody selectedItem={selectedItem} />
     </Flex>
   );
